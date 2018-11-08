@@ -19,16 +19,24 @@
   "require-dev": {
     "phpunit/phpunit": "^6.1"
   },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x"
+    },
+    "laravel": {
+      "providers": [
+        "\\Windmill\\Modules\\LaravelServiceProvider"
+      ],
+      "aliases": {
+        "Windmill": "\\Windmill\\Modules\\Facade\\WindmillModuleFacade"
+      }
+    }
+  },
   "autoload": {
     "psr-4": {
       "Windmill\\Modules\\": "src"
     },
     "files": [
     ]
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "tests\\": "tests"
-    }
   }
 }
