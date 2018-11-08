@@ -1,7 +1,7 @@
 <?php
 namespace Windmill\Modules\Commands;
 
-use Houdunwang\Module\Traits\BuildVars;
+use Windmill\Modules\Traits\BuildVars;
 use Illuminate\Console\Command;
 
 class ModelCreateCommand extends Command
