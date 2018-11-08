@@ -1,6 +1,7 @@
 <?php
 
 namespace Windmill\Modules\Traits;
+
 trait BuildVars
 {
     protected $vars = [];
