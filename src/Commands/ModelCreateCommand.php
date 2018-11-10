@@ -1,4 +1,5 @@
 <?php
+
 namespace Windmill\Modules\Commands;
 
 use Windmill\Modules\Traits\BuildVars;

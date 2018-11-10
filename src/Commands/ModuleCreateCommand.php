@@ -47,5 +47,6 @@ class ModuleCreateCommand extends Command
             'name' => $name,
         ]);
 
+        $this->info("module creating successful");
     }
 }

@@ -3,7 +3,6 @@ namespace Windmill\Modules\Commands;
 
 use Windmill\Modules\Traits\BuildVars;
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\Storage;
 
 class ConfigCreateCommand extends Command
 {
