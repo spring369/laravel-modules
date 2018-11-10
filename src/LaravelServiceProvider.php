@@ -4,7 +4,6 @@ namespace Windmill\Modules;
 
 use Windmill\Modules\Commands\BuildCreateCommand;
 use Windmill\Modules\Commands\ModelCreateCommand;
-use Windmill\Modules\Commands\ModuleUpdateCommand;
 use Windmill\Modules\Commands\PermissionCreateCommand;
 use Windmill\Modules\Services\MenusService;
 use Illuminate\Support\ServiceProvider;
@@ -27,7 +26,6 @@ class LaravelServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 ModuleCreateCommand::class,
-                ModuleUpdateCommand::class,
                 ConfigCreateCommand::class,
                 PermissionCreateCommand::class,
                 ModelCreateCommand::class,
